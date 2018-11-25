@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3B5998</color>
+
+    <color name="colorPrimaryDark">#3B5998</color>
+    <color name="colorAccent">#ff5521</color>
+    <color name="profileBackground">#505050</color>
+    <color name="wightBG">#ffffff</color>
+    <color name="bgcolor">#D3D3D3</color>
+    <color name="bgcolorgreen">#00FF00</color>
+    <color name="bgcolorred">#FF0000</color>
+    <color name="textColor">#000000</color>
+
+
+
+    <color name="chatappBG">#F1F1F1</color>
+
+</resources>

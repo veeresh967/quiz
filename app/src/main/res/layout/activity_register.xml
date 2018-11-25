@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Register">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content"
+       >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/logo"
+            android:src="@drawable/logoquiz"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/user"
+            android:hint="Enter Username"
+            android:id="@+id/userNamer"
+            android:layout_below="@+id/logo"
+            android:textColor="@color/wightBG"
+            android:textColorHint="@color/wightBG"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userNamer"
+            android:drawableLeft="@drawable/ic_email"
+            android:hint="Enter Email"
+            android:id="@+id/emailr"
+            android:textColorHint="@color/wightBG"
+            android:textColor="@color/wightBG"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+               android:layout_marginTop="15dp"
+            android:id="@+id/passwordr"
+            android:layout_below="@id/emailr"
+            android:textColor="@color/wightBG"
+            android:textColorHint="@color/wightBG"
+            android:drawableLeft="@drawable/ic_pass"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_below="@id/passwordr"
+            android:id="@+id/agreement"
+               android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/checkbox"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I-agree"
+                android:textSize="20dp"
+                android:id="@+id/agreementTextView"
+                android:clickable="true"
+
+                android:textColor="@color/wightBG"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="submit"
+
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/registerbutton"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/agreement"
+
+            android:background="@drawable/custom_button"/>
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

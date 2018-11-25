@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+  android:src="@drawable/logoquiz"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:hint="Enter Email"
+        android:id="@+id/emaill"
+        android:textColorHint="@color/wightBG"
+        android:textColor="@color/wightBG"
+        android:layout_weight="0.5"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="Password"
+        android:id="@+id/passwordl"
+        android:textColor="@color/wightBG"
+        android:textColorHint="@color/wightBG"
+        android:drawableLeft="@drawable/ic_pass"
+        android:layout_weight="0.5"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/loginbutton"
+
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/registerbutton"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
