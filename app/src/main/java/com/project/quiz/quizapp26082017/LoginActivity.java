@@ -24,6 +24,7 @@ EditText email,password;
 Button login,register;
     private FirebaseAuth mAuth;
       private ProgressDialog progressDialog;
+      //sample2
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

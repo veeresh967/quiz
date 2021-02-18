@@ -23,7 +23,7 @@ TextView agreementTextView;
 EditText email,password,username;
     private FirebaseAuth firebaseAuth;
     private ProgressDialog progressDialog;
-
+//same
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
